@@ -1,0 +1,63 @@
+:root {
+    --text: #ffffff;
+    --background: #193d61;
+}
+body {
+    background-color: var(--background);
+    color: var(--text);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h1 {
+        font-size: 3rem;
+        margin-bottom: -0.5rem;
+    }
+    h2 {
+        font-size: 2rem;
+    }
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .description{
+        max-width: 40rem;
+        font-size: 1.5rem;
+    }
+    .HubbleCaption{
+        gap: -0.4rem;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .RSVP{
+        font-size: 1.5rem;
+        color:var(--text);
+        display: flex;
+        text-align: center;
+    }
+    .RSVPLink{
+        font-size: 1.5rem;
+        color:var(--text);
+        display: flex;
+        justify-content:center;
+    }
+    a:focus-visible {
+        outline: 0.2rem solid #a81717;
+        outline-offset: 0.2rem;
+    }
+    aside{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background);
+    color: var(--text);
+}
+
